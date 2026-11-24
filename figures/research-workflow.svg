@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="439" viewBox="0 0 870 439" role="img" aria-labelledby="title desc" lang="zh-CN">
+  <title id="title">一次发现怎样改变几项研究工作</title>
+  <desc id="desc">以培训后的收入恢复为例。四列分别是文献、数据、识别和试跑。实点是线索来源，箭头指向它改变的工作。论文的随访时间提示核对数据和对照组。服务结束的含义促使重读文献并重定比较对象。随机分组指导取数和试估。年度收入差又促使研究者回到机制文献，寻找逐月记录。最终放下年度样本，保留逐月问题，核实对照组的起点。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 9 9" refX="8" refY="4.5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1.6 1.1 8 4.5 1.6 7.9" fill="none" stroke="#28647c" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: Arial, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans SC', sans-serif; fill: #20272a; }
+    .title { font-size: 23px; font-weight: 600; }
+    .key { font-size: 14px; fill: #505b60; }
+    .head { font-size: 15px; font-weight: 600; }
+    .finding { font-size: 17px; font-weight: 500; }
+    .explain { font-size: 14.5px; fill: #485358; }
+    .decision { font-size: 16px; font-weight: 600; }
+    .guide { stroke: #d5dbdd; stroke-width: 1; stroke-dasharray: 2 4; }
+    .link { fill: none; stroke: #28647c; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); }
+    .origin { fill: #28647c; }
+  </style>
+  <rect width="870" height="439" fill="white"/>
+  <g id="question">
+    <text x="25" y="34" class="title">研究问题怎样随证据修订</text>
+    <text x="26" y="61" class="key">以培训后的收入恢复为例。每行是一项发现，实点标出线索来源，箭头指向随之改变的工作。</text>
+  </g>
+  <g id="research-activities">
+    <text x="54" y="94" class="head" text-anchor="middle">文献</text>
+    <path class="guide" d="M54 103 V368"/>
+    <text x="135" y="94" class="head" text-anchor="middle">数据</text>
+    <path class="guide" d="M135 103 V368"/>
+    <text x="216" y="94" class="head" text-anchor="middle">识别</text>
+    <path class="guide" d="M216 103 V368"/>
+    <text x="297" y="94" class="head" text-anchor="middle">试跑</text>
+    <path class="guide" d="M297 103 V368"/>
+    <text x="351" y="94" class="head">发现与下一步</text>
+  </g>
+  <g id="literature">
+    <path class="link" d="M54 137 C62 137,62 130,70 130 H135"/>
+    <path class="link" d="M54 137 C62 137,62 144,70 144 H216"/>
+    <circle class="origin" cx="54" cy="137" r="4.4"/>
+    <text x="351" y="133" class="finding">有的论文从开训月算起，有的从结业后算起</text>
+    <text x="351" y="158" class="explain">核对两种日期是否都有，同时考虑对照组该从哪一天算起。</text>
+  </g>
+  <g id="data">
+    <path class="link" d="M135 206 H54"/>
+    <path class="link" d="M135 206 H216"/>
+    <circle class="origin" cx="135" cy="206" r="4.4"/>
+    <text x="351" y="202" class="finding">档案中的“最后一次服务”也可能是提前退出</text>
+    <text x="351" y="227" class="explain">回论文查退出者怎么处理，再确定哪些人可以放在一起比较。</text>
+  </g>
+  <g id="design">
+    <path class="link" d="M216 275 H135"/>
+    <path class="link" d="M216 275 H297"/>
+    <circle class="origin" cx="216" cy="275" r="4.4"/>
+    <text x="351" y="271" class="finding">培训名额由随机分配决定</text>
+    <text x="351" y="296" class="explain">按最初的分组取样，试估两组在 1978 年的收入差。</text>
+  </g>
+  <g id="pilot">
+    <path class="link" d="M297 344 C289 344,289 337,281 337 H135"/>
+    <path class="link" d="M297 344 C289 344,289 351,281 351 H54"/>
+    <circle class="origin" cx="297" cy="344" r="4.4"/>
+    <text x="351" y="340" class="finding">两组年收入相差约 1,794 美元，哪一种解释成立？</text>
+    <text x="351" y="365" class="explain">早复工和晚得高薪都说得通。回文献找不同预测，再查逐月收入。</text>
+  </g>
+  <text x="26" y="413" class="decision">本轮判断</text>
+  <text x="116" y="413" class="explain">放下年度样本，保留逐月问题。用新数据估计前，先查两组能否按同一个规则确定起算日。</text>
+</svg>

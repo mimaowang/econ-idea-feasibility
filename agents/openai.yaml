@@ -1,0 +1,4 @@
+interface:
+  display_name: "经济学选题可行性验证"
+  short_description: "从最接近的论文出发，取真数据并试跑识别策略，判断选题是否值得继续"
+  default_prompt: "用 $econ-idea-feasibility 验证下面这个经济学想法，查清最接近的研究，值得时取数试跑，告诉我是否继续以及为什么。"
